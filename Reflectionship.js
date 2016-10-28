@@ -8,7 +8,11 @@ var path = require("path");
 var handlebars = require("express3-handlebars")
 
 // Load all controllers in these js files. 
+<<<<<<< HEAD
 var home = require("./routes/index");
+=======
+var home = require("./routes/HomeRoutes");
+>>>>>>> 664c61b03ddadac66931f51dab43d147384a007f
 // var emotion = require("./routes/EmotionTrackerRoutes");
 // var conversation = require("./routes/ConversationIdeasRoutes");
 // var relaprofile = require("./routes/RelationshipProfileRoutes");
